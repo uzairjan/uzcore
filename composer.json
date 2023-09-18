@@ -1,0 +1,13 @@
+{
+    "name": "uzair/uzcore",
+    "description": "simple php framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "uzair"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
