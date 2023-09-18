@@ -3,11 +3,39 @@
     "description": "simple php framework",
     "type": "library",
     "license": "MIT",
+    "keywords": ["framework","php","uzcore"],
+    "readme": "",
+    "time": "",
+    "support": {
+        "issues": "https://github.com/uzairjan/uzcore/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc",
+        "source": "https://github.com/uzairjan/uzcore",
+        "wiki": "https://github.com/uzairjan/uzcore/wiki"
+    },
     "authors": [
         {
-            "name": "uzair"
+            "name": "uzair",
+            "email": "muhammaduzair751@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "8.0.30",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magma\\": "src/Magma"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magma\\Tests\\":"tests/"
+        }
+    }
 }
